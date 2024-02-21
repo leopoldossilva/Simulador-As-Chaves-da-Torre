@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Roller</h1>
+		<div class="form">
+			<font color="red">   
+            <label for="red">Red Dice:</label>
+            <input type="number" id="red" min="0">
+			</font>
+            <br>
+			
+			<font color="yellow">  
+			<label for="yellow">Yellow Dice:</label>
+            <input type="number" id="yellow" min="0">
+			</font>
+            <br>
+			
+			<font color="blue">  
+            <label for="blue">Blue Dice:</label>
+            <input type="number" id="blue" min="0">
+			</font>
+            <br>
+			
+            <label for="black">Black Dice:</label>
+            <input type="number" id="black" min="0">
+            <button onclick="rollDice()">Roll Dice</button>
+        </div>
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
